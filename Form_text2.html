@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Working with HTML Forms</title>
+	<h1>HTML Form Text</h1>
+</head>
+<body>
+	<form>
+		Full Name: <input type = "text" name="fullname" size="30" maxlength="10" required=""><br><br>
+		Adress : <input type="text" name="adress" size="30" maxlength="10"><br><br>
+		Email : <input type="email" name="email"><br>
+		<br>
+		Gender: <input type="radio" name="gender1" value="Male"> Male
+		<input type="radio" name="gender2" value="Female"> Female
+		<br>
+		<br>
+		Hobbies: <input type="checkbox" name="chkSports" values= "Sports"> Sports
+		<input type="checkbox" name="chkMovies" values= "Movies" > Movies
+		<input type="checkbox" name="chkTravelling" values= "Travelling"> Travelling
+		<br>
+		Country:
+		<select name= "selCountry">
+			<option value="">Nepal</option>
+			<option value="">Turkey</option>
+			<option value="">France</option>
+			<option value="">India</option>
+		</select>
+		<br><br>
+		
+	</form>
+	<form>
+    	<p>Message:</p>
+    	<textarea name ="tacomments" rows="5" cols="30">
+		</textarea>
+	</form>
+	<form>
+		<input type="hidden" name="hf1" value="hfvalue">
+		<input type="submit" value="Submit" name="btnSubmit">
+		<input type="reset" value="Reset" name="btnReset">
+	</form>
+
+</body>
+</html>
